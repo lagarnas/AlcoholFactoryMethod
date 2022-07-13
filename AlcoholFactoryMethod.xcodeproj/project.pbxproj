@@ -13,6 +13,14 @@
 		88E97BCE258A0CBC001A10DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E97BCC258A0CBC001A10DF /* Main.storyboard */; };
 		88E97BD0258A0CBE001A10DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88E97BCF258A0CBE001A10DF /* Assets.xcassets */; };
 		88E97BD3258A0CBE001A10DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E97BD1258A0CBE001A10DF /* LaunchScreen.storyboard */; };
+		88E97BDC258A0F3F001A10DF /* Alcohol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E97BDB258A0F3F001A10DF /* Alcohol.swift */; };
+		88E97BE0258A1008001A10DF /* FactoryOfAlcohols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E97BDF258A1008001A10DF /* FactoryOfAlcohols.swift */; };
+		88E97BE4258A10A6001A10DF /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E97BE3258A10A6001A10DF /* Beer.swift */; };
+		88E97BE9258A1156001A10DF /* Champagne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E97BE8258A1156001A10DF /* Champagne.swift */; };
+		88E97BED258A11CD001A10DF /* Vodka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E97BEC258A11CD001A10DF /* Vodka.swift */; };
+		88E97BF0258A1224001A10DF /* Wine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E97BEF258A1224001A10DF /* Wine.swift */; };
+		88E97BF3258A12AC001A10DF /* RodnikFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E97BF2258A12AC001A10DF /* RodnikFactory.swift */; };
+		88E97BF6258A13C0001A10DF /* HenkelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E97BF5258A13C0001A10DF /* HenkelFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		88E97BCF258A0CBE001A10DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88E97BD2258A0CBE001A10DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88E97BD4258A0CBE001A10DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88E97BDB258A0F3F001A10DF /* Alcohol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alcohol.swift; sourceTree = "<group>"; };
+		88E97BDF258A1008001A10DF /* FactoryOfAlcohols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryOfAlcohols.swift; sourceTree = "<group>"; };
+		88E97BE3258A10A6001A10DF /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		88E97BE8258A1156001A10DF /* Champagne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Champagne.swift; sourceTree = "<group>"; };
+		88E97BEC258A11CD001A10DF /* Vodka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vodka.swift; sourceTree = "<group>"; };
+		88E97BEF258A1224001A10DF /* Wine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wine.swift; sourceTree = "<group>"; };
+		88E97BF2258A12AC001A10DF /* RodnikFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RodnikFactory.swift; sourceTree = "<group>"; };
+		88E97BF5258A13C0001A10DF /* HenkelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HenkelFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +75,36 @@
 				88E97BC6258A0CBC001A10DF /* AppDelegate.swift */,
 				88E97BC8258A0CBC001A10DF /* SceneDelegate.swift */,
 				88E97BCA258A0CBC001A10DF /* ViewController.swift */,
+				88E97BE6258A113D001A10DF /* Factory */,
+				88E97BDE258A0FC3001A10DF /* Alcohol */,
 				88E97BCC258A0CBC001A10DF /* Main.storyboard */,
 				88E97BCF258A0CBE001A10DF /* Assets.xcassets */,
 				88E97BD1258A0CBE001A10DF /* LaunchScreen.storyboard */,
 				88E97BD4258A0CBE001A10DF /* Info.plist */,
 			);
 			path = AlcoholFactoryMethod;
+			sourceTree = "<group>";
+		};
+		88E97BDE258A0FC3001A10DF /* Alcohol */ = {
+			isa = PBXGroup;
+			children = (
+				88E97BDB258A0F3F001A10DF /* Alcohol.swift */,
+				88E97BEC258A11CD001A10DF /* Vodka.swift */,
+				88E97BEF258A1224001A10DF /* Wine.swift */,
+				88E97BE3258A10A6001A10DF /* Beer.swift */,
+				88E97BE8258A1156001A10DF /* Champagne.swift */,
+			);
+			path = Alcohol;
+			sourceTree = "<group>";
+		};
+		88E97BE6258A113D001A10DF /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				88E97BDF258A1008001A10DF /* FactoryOfAlcohols.swift */,
+				88E97BF2258A12AC001A10DF /* RodnikFactory.swift */,
+				88E97BF5258A13C0001A10DF /* HenkelFactory.swift */,
+			);
+			path = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +177,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88E97BE9258A1156001A10DF /* Champagne.swift in Sources */,
 				88E97BCB258A0CBC001A10DF /* ViewController.swift in Sources */,
+				88E97BF0258A1224001A10DF /* Wine.swift in Sources */,
+				88E97BE4258A10A6001A10DF /* Beer.swift in Sources */,
+				88E97BED258A11CD001A10DF /* Vodka.swift in Sources */,
+				88E97BF3258A12AC001A10DF /* RodnikFactory.swift in Sources */,
 				88E97BC7258A0CBC001A10DF /* AppDelegate.swift in Sources */,
+				88E97BF6258A13C0001A10DF /* HenkelFactory.swift in Sources */,
+				88E97BDC258A0F3F001A10DF /* Alcohol.swift in Sources */,
 				88E97BC9258A0CBC001A10DF /* SceneDelegate.swift in Sources */,
+				88E97BE0258A1008001A10DF /* FactoryOfAlcohols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
